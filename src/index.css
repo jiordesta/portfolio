@@ -1,0 +1,106 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fee8d4;
+    scroll-behavior: smooth;
+}
+.navlink {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 20px;
+}
+.navcontent {
+    justify-content: center;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+}
+.navbar-toggler {
+    background-color: transparent;
+    border-style: none;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    
+}
+.pagecontainer {
+    justify-content: center;
+}
+.rowcontainer {
+    padding: 5%;
+}
+.colcontainer {
+    min-width: 200px;
+    max-width: 50%;
+    text-align: justify;
+}
+.img1 {
+    min-width: 200px;
+    max-width: 70%;
+}
+.colcontainer p{
+    text-align: center;
+    font-size: 25px;
+}
+.rc {
+    padding: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    margin: 10px;
+    min-width: 250px;
+}
+.rc h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+.cc {
+    padding: 20px;
+    font-size: 25px;
+}
+.homecol{
+    min-width: 400px;
+}
+.colcontent {
+    padding: 100px;
+}
+.home {
+    padding: 50px;
+    display: flex;
+    min-width: 50%;
+}
+.homecol .text{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+    width: 100%;
+}
+.homecol .homelink {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    padding: 10px;
+    display:inline-flex;
+    align-content: center;
+    text-decoration: underline;
+}
+.contactlink {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 25px;
+}
+.contactlabel {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 5px;
+    margin: 5px;
+}
+.projectlink {
+    text-decoration: none;
+    color: blueviolet;
+}
